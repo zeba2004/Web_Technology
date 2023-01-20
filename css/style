@@ -1,0 +1,9 @@
+.compact-cars{
+   background-color:darkmagenta;
+}
+.midsize-cars{
+    background-color: rgb(251, 158, 174);
+}
+.sports-cars{
+    background-color:rgb(251, 119, 141);
+}
