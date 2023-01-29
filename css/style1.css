@@ -1,0 +1,40 @@
+h1{
+    animation-name: colorchange;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    font-size:40px;
+}
+@keyframes colorchange {
+  from{color:burlywood}
+  to{color:brown;}
+}
+
+.fade-in-text {
+  font-family: Arial;
+  animation: fadeIn 5s;
+}
+@keyframes fadeIn 
+{
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+ .anima{
+  animation-name:anima1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+ }
+ @keyframes anima1{
+  from{background-color:rgb(199, 168, 185)}
+  to{background-color:burlywood;}
+ }
+
+ .animaa{
+  animation-name: animaa1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+ }
+ @keyframes animaa1{
+  from{background-color:rgb(174, 155, 224)}
+  to{background-color:coral;}
+ }
