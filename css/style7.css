@@ -34,7 +34,8 @@ h1{
   animation-duration: 5s;
   animation-iteration-count: infinite;
  }
- @keyframes animaa1{
+ @keyframes animaa1
+{
   from{background-color:rgb(174, 155, 224)}
   to{background-color:coral;}
  }
