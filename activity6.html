@@ -5,11 +5,11 @@
 <style>  
 body{  
   font-family: Calibri, Helvetica, sans-serif;  
-  background-color: rgb(14, 13, 14);  
+  background-color:rgb(70, 147, 195);  
 }  
 .container {  
     padding: 50px;  
-  background-color: rgb(191, 91, 91);  
+  background-color:rgb(100, 127, 164);  
 }  
   
 input[type=text], input[type=password], textarea {  
@@ -18,15 +18,15 @@ input[type=text], input[type=password], textarea {
   margin: 5px 0 22px 0;  
   display: inline-block;  
   border: none;  
-  background: #323030;  
+  background-color:rgb(218, 192, 158);  
 }  
 input[type=text]:focus, input[type=password]:focus {  
-  background-color: rgb(201, 204, 214);  
+  background-color: rgb(219, 214, 214);  
   outline: none;  
 }  
  div {  
             padding: 10px 0;  
-         }  
+     }  
 hr {  
   border: 1px solid #f1f1f1;  
   margin-bottom: 25px;  
@@ -47,25 +47,24 @@ hr {
 </style>  
 </head>  
 <body>  
-<form>  
-  <div class="container">  
-  <center>  <h1> College Registeration Form</h1> </center>  
-  <!-- <hr>   -->
-  <label> Firstname </label>   
+<form> 
+
+<div class="container">  
+<center>  <h1>College Registeration Form </h1> </center>  
+<label> Firstname </label>   
 <input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
-<!-- <label> Middlename: </label>   
-<input type="text" name="middlename" placeholder="Middlename" size="15" required />    -->
 <label> Lastname: </label>    
 <input type="text" name="lastname" placeholder="Lastname" size="15"required />   
 <label> Mother's Name: </label>    
 <input type="text" name="lastname" placeholder="name" size="15"required /> 
 <label> Father's Name: </label>    
 <input type="text" name="lastname" placeholder="name" size="15"required /> 
-<div>  
+</div>
+
+<div class="container"> 
 <label>   
 Course :  
 </label>   
-  
 <select>  
 <option value="Course">Course</option>  
 <option value="BCA">BCA</option>  
@@ -76,50 +75,47 @@ Course :
 <option value="MBA">MBA</option>  
 <option value="MCA">MCA</option>  
 <option value="M.Tech">M.Tech</option> 
-</select>  
-</div>  
-<div>  
+</select>
+<br>  
+ 
 <label>   
-Gender :  
-</label><br>  
+Gender : 
+</label> 
+<br>  
 <input type="radio" value="Male" name="gender" checked > Male   
 <input type="radio" value="Female" name="gender"> Female   
-<input type="radio" value="Other" name="gender"> Other  
-  
-</div>  
-<label>
-<div>
-<label for="birthday">Date-Of-Birthday</label>
-<input type="date" id="birthday" name="birthday">
-</div>
+<input type="radio" value="Other" name="gender"> Other   
 
+<br>
+<label for="birthday">Date-Of-Birthday</label>
+<br>
+<input type="date" id="birthday" name="birthday">
+
+</div>
+<div class="container">
 Phone :  
-</label>  
-<!-- <input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>    -->
-<input type="text" name="phone" placeholder="phone no." size="10"/ required>   
+<input type="text" name="phone" placeholder="phone no." size="10"/ required> 
+
 Current Address :  
 <textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
 </textarea>
 
-<label> City </label>   
+City   
 <input type="text" name="city" placeholder= "city" size="15" required />
 
 Pincode :  
-</label>  
 <input type="text" name="pincode" placeholder="pincode" size="10"/ required>
 
-<label> State </label>   
+State :
 <input type="text" name="state" placeholder= "state" size="15" required />
 
- <label for="email"><b>Email</b></label>  
- <input type="text" placeholder="Enter Email" name="email" required>  
+<label for="email"><b>Email</b></label>  
+<input type="text" placeholder="Enter Email" name="email" required>  
   
-    <label for="psw"><b>Password</b></label>  
-    <input type="password" placeholder="Enter Password" name="psw" required>  
-  
-    <!-- <label for="psw-repeat"><b>Re-type Password</b></label>   -->
-    <!-- <input type="password" placeholder="Retype Password" name="psw-repeat" required>   -->
-    <button type="submit" class="registerbtn">Register</button>    
+<label for="psw"><b>Password</b></label>  
+<input type="password" placeholder="Enter Password" name="psw" required>  
+<button type="submit" class="registerbtn" style="height:50px;width:100px;text-align:center;">Register</button>
+</div>    
 </form>  
 </body>  
 </html>  
