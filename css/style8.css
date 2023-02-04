@@ -1,9 +1,9 @@
-.compact-cars{
-   background-color:darkmagenta;
+.compact{
+    background-color: pink;
 }
-.midsize-cars{
-    background-color: rgb(251, 158, 174);
+.mid-size{
+    background-color:rgb(251, 158, 174);;
 }
-.sports-cars{
+.sports-car{
     background-color:rgb(251, 119, 141);
 }
